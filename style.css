@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  .card {
+    border-bottom: 5px solid #666;
+    text-align: center;
+    margin: 300px 0;
+    .card-img {
+      img {
+        width: 50%;
+      }
+    }
+    .card-content {
+      h2 {
+        font-size: 2rem;
+        color: #333;
+      }
+      p {
+        color: #666;
+      }
+    }
+  }
+}
